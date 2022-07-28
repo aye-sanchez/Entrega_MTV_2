@@ -4,7 +4,7 @@ from familiares.models import Familiares
 # Create your views here.
 
 def familiares_lista (request):
-    familiar_nuevo = Familiares.objects.create (name = 'Irene', last_name = 'Saade', age = '71', gender = 'femenino', relationship = 'madre')
+    familiar_nuevo = Familiares.objects.create (name = 'Mercedes', last_name = 'Saade', age = '99', gender = 'femenino', relationship = 'abuela')
     context = {
         'familiar_nuevo' : familiar_nuevo
     }

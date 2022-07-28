@@ -5,12 +5,14 @@
 </head>
 <body>
     <h1>Mi lista de familares es:</h1>
+    <h3>::::::::::::::::::::::::::::::::::::::::::::::</h3>
     {%for familiares in todos_los_familiares %}
     <h3>El nombre del familiar es: {{familiares.name}}</h3>
     <h3>El apellido del familiar es: {{familiares.last_name}}</h3>
     <h3>La edad del familiar es: {{familiares.age}}</h3>
     <h3>El genero del familiar es: {{familiares.gender}}</h3>
     <h3>El parentesco es: {{familiares.relationship}}</h3>
+    <h3>::::::::::::::::::::::::::::::::::::::::::::::</h3>
     {%endfor%}
 </body>
     
